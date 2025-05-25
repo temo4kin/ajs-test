@@ -1,0 +1,29 @@
+{
+  "name": "ajs-test",
+  "version": "1.0.0",
+  "description": "К домашней работе по Unit-тестированию",
+  "keywords": [
+    "test"
+  ],
+  "homepage": "https://github.com/temo4kin/ajs-test#readme",
+  "bugs": {
+    "url": "https://github.com/temo4kin/ajs-test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temo4kin/ajs-test.git"
+  },
+  "license": "ISC",
+  "author": "Temo4kin",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "jest": "^29.7.0"
+  }
+}
