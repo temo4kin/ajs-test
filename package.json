@@ -1,21 +1,7 @@
 {
-  "name": "ajs-test",
+  "name": "ajs",
   "version": "1.0.0",
-  "description": "К домашней работе по Unit-тестированию",
-  "keywords": [
-    "test"
-  ],
-  "homepage": "https://github.com/temo4kin/ajs-test#readme",
-  "bugs": {
-    "url": "https://github.com/temo4kin/ajs-test/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/temo4kin/ajs-test.git"
-  },
-  "license": "ISC",
-  "author": "Temo4kin",
-  "type": "commonjs",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
@@ -29,6 +15,8 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
+  "author": "Rysaev Damir <freepad@ya.ru>",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.0",
@@ -45,8 +33,5 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
-  },
-  "dependencies": {
-    "core-js": "^3.42.0"
   }
 }
