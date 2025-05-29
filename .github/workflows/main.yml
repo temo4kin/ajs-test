@@ -6,5 +6,7 @@ jobs:
         runs-on: ubuntu-lastes
         steps:
             - uses: actions/checkout@v4
-            - name: Run a script
-              run: echo "Hello, Github Actions!" 
+            - name: Install npm
+              run: npm install
+            - name: Run Test
+              run: npm test
