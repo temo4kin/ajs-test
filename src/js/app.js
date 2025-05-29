@@ -8,10 +8,10 @@ console.log(sum([1, 2]));
 
 function getHealthOfHeroes(obj) {
   if (obj.health >= 50) {
-    return healthy;
+    return "healthy";
   } else if (obj.health < 50 && obj.health > 15 ) {
-    return wounded;
+    return "wounded";
   } else if (obj.health <= 15) {
-    return critical;
+    return "critical";
   }
 }
