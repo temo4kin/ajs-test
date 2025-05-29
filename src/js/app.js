@@ -15,3 +15,5 @@ function getHealthOfHeroes(obj) {
     return "critical";
   }
 }
+
+const getHealthOfHeroes({name: 'Маг', health: 90});
